@@ -1,0 +1,777 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "richapp.response",
+        "description": "richapp.response",
+        "isExtraImport": true,
+        "detail": "richapp.response",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "richapp.response",
+        "description": "richapp.response",
+        "isExtraImport": true,
+        "detail": "richapp.response",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseNotAllowed",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "userExist",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "authenticateUser",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "loginUser",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "logoutUser",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "giveAdminPermission",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "deleteUser",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "is_in_24hr",
+        "importPath": "richapp.checkFunc",
+        "description": "richapp.checkFunc",
+        "isExtraImport": true,
+        "detail": "richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "permission_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "json,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.",
+        "description": "json.",
+        "detail": "json.",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.asgi",
+        "description": "richPanel.richPanel.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "richPanel.richPanel.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-9!*uo0-h*#nf7y3^-fbq!&6i^4oml^34!wz!%chx-q0hk8p*d3'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-9!*uo0-h*#nf7y3^-fbq!&6i^4oml^34!wz!%chx-q0hk8p*d3'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect\nCORS_ALLOW_CREDENTIALS = True\nCORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect\nCORS_ALLOW_CREDENTIALS = True\nCORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect\nCORS_ALLOW_CREDENTIALS = True\nCORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True # If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect\nCORS_ALLOW_CREDENTIALS = True\nCORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nSESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SESSION_COOKIE_SAMESITE",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "SESSION_COOKIE_SAMESITE = \"None\"\nSESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SESSION_COOKIE_SECURE",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "SESSION_COOKIE_SECURE = True\nSESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SESSION_COOKIE_HTTPONLY",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "SESSION_COOKIE_HTTPONLY = False\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'richapp',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'richapp',\n    'corsheaders',\n    'sslserver'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    # 'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware'\n]",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "ROOT_URLCONF = 'richPanel.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'richPanel.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'root',\n        'PASSWORD': 'mypassword',\n        'HOST': 'db_richpanel',",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'root',\n        'PASSWORD': 'mypassword',\n        'HOST': 'db_richpanel',\n        'PORT': '5432'\n    }\n}",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.settings",
+        "description": "richPanel.richPanel.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "richPanel.richPanel.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.urls",
+        "description": "richPanel.richPanel.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/',include('richapp.urls'))\n]",
+        "detail": "richPanel.richPanel.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "richPanel.richPanel.wsgi",
+        "description": "richPanel.richPanel.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "richPanel.richPanel.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "RichappConfig",
+        "kind": 6,
+        "importPath": "richPanel.richapp.apps",
+        "description": "richPanel.richapp.apps",
+        "peekOfCode": "class RichappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'richapp'",
+        "detail": "richPanel.richapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "userExist",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def userExist(email):\n    return User.objects.filter(email=email).exists()\ndef authenticateUser(data,returnType):\n    user=authenticate(username=data['email'],password=data['password'])\n    if returnType=='boolean':\n        return user is not None\n    if returnType=='user':\n        return user\n    return INVALID_RETURN_TYPE\ndef loginUser(request,data):",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "authenticateUser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def authenticateUser(data,returnType):\n    user=authenticate(username=data['email'],password=data['password'])\n    if returnType=='boolean':\n        return user is not None\n    if returnType=='user':\n        return user\n    return INVALID_RETURN_TYPE\ndef loginUser(request,data):\n    user=authenticateUser(data,returnType=\"user\")\n    user=login(request,user)",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "loginUser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def loginUser(request,data):\n    user=authenticateUser(data,returnType=\"user\")\n    user=login(request,user)\n    return user\ndef logoutUser(request):\n    return logout(request)\ndef giveAdminPermission(user):\n    delete_user=Permission.objects.get(codename=\"delete_permission\")\n    user.user_permissions.add(delete_user)\n    user.save()",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "logoutUser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def logoutUser(request):\n    return logout(request)\ndef giveAdminPermission(user):\n    delete_user=Permission.objects.get(codename=\"delete_permission\")\n    user.user_permissions.add(delete_user)\n    user.save()\ndef deleteUser(data):\n    user=User.objects.get(username=data['username'])\n    user.delete()\ndef is_in_24hr(datetime_str):",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "giveAdminPermission",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def giveAdminPermission(user):\n    delete_user=Permission.objects.get(codename=\"delete_permission\")\n    user.user_permissions.add(delete_user)\n    user.save()\ndef deleteUser(data):\n    user=User.objects.get(username=data['username'])\n    user.delete()\ndef is_in_24hr(datetime_str):\n    try:\n        # Parse the datetime string",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "deleteUser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def deleteUser(data):\n    user=User.objects.get(username=data['username'])\n    user.delete()\ndef is_in_24hr(datetime_str):\n    try:\n        # Parse the datetime string\n        input_datetime = datetime.strptime(datetime_str, '%Y-%m-%dT%H:%M:%S%z')\n        # Get the current time\n        current_time = datetime.now(input_datetime.tzinfo)\n        # Calculate 24 hours from now",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "is_in_24hr",
+        "kind": 2,
+        "importPath": "richPanel.richapp.checkFunc",
+        "description": "richPanel.richapp.checkFunc",
+        "peekOfCode": "def is_in_24hr(datetime_str):\n    try:\n        # Parse the datetime string\n        input_datetime = datetime.strptime(datetime_str, '%Y-%m-%dT%H:%M:%S%z')\n        # Get the current time\n        current_time = datetime.now(input_datetime.tzinfo)\n        # Calculate 24 hours from now\n        last_24hr = current_time - timedelta(hours=24)\n        # Check if the input datetime is before or after the next 24 hours\n        if  last_24hr< input_datetime :",
+        "detail": "richPanel.richapp.checkFunc",
+        "documentation": {}
+    },
+    {
+        "label": "appuser",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class appuser(models.Model):\n    userid=models.ForeignKey(User,on_delete=models.CASCADE)\n    fbuserid=models.CharField(max_length=1000)\n    accesstoken=models.CharField(max_length=2000)\n    class Meta:\n        db_table = \"user\"\nclass page(models.Model):\n    userid=models.ForeignKey(User,on_delete=models.CASCADE)\n    pageid=models.CharField(max_length=100)\n    pageaccesstoken=models.CharField(max_length=1000)",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "page",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class page(models.Model):\n    userid=models.ForeignKey(User,on_delete=models.CASCADE)\n    pageid=models.CharField(max_length=100)\n    pageaccesstoken=models.CharField(max_length=1000)\n    pagename=models.CharField(max_length=100)\n    class Meta:\n        db_table = \"page\"\nclass conversations(models.Model):\n    pageid=models.ForeignKey(page,on_delete=models.CASCADE)\n    conversation_id=models.CharField(max_length=100)",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "conversations",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class conversations(models.Model):\n    pageid=models.ForeignKey(page,on_delete=models.CASCADE)\n    conversation_id=models.CharField(max_length=100)\n    updated_time=models.DateTimeField(null=True)\n    status=models.CharField(default='ACTIVE')\n    class Meta:\n        db_table = \"conversations\"\nclass message(models.Model):\n    conversation=models.ForeignKey(conversations,on_delete=models.CASCADE)\n    message_id=models.CharField(max_length=100)",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class message(models.Model):\n    conversation=models.ForeignKey(conversations,on_delete=models.CASCADE)\n    message_id=models.CharField(max_length=100)\n    created_time=models.DateTimeField(null=True)\n    status=models.CharField(default='ACTIVE')\n    class Meta:\n        db_table = \"message\"\nclass customer(models.Model):\n    username=models.CharField(max_length=100)\n    user_id=models.CharField(max_length=1000,primary_key=True)",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "customer",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class customer(models.Model):\n    username=models.CharField(max_length=100)\n    user_id=models.CharField(max_length=1000,primary_key=True)\n    class Meta:\n        db_table = \"customer\"\nclass message_details(models.Model):\n    messageid=models.ForeignKey(message,on_delete=models.CASCADE)\n    message_content=models.CharField(max_length=5000)\n    userid=models.ForeignKey(customer,on_delete=models.CASCADE,default=\"\")\n    created_time=models.DateTimeField(null=True)",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "message_details",
+        "kind": 6,
+        "importPath": "richPanel.richapp.models",
+        "description": "richPanel.richapp.models",
+        "peekOfCode": "class message_details(models.Model):\n    messageid=models.ForeignKey(message,on_delete=models.CASCADE)\n    message_content=models.CharField(max_length=5000)\n    userid=models.ForeignKey(customer,on_delete=models.CASCADE,default=\"\")\n    created_time=models.DateTimeField(null=True)\n    status=models.CharField(default='ACTIVE')\n    class Meta:\n        db_table = \"message_details\"",
+        "detail": "richPanel.richapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "signin",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def signin(request):\n    if(request.method=='POST'):\n        data=json.load(request)\n        if not authenticateUser(data,returnType=\"boolean\"):\n            return JsonResponse(INVALID_USER,status=401)\n        loginUser(request,data)\n        print('logged in')\n        return JsonResponse(LOGIN_RESPONSE,status=200)\n    return JsonResponse(INVALID_METHOD,status=405)\ndef createUser(request):",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "createUser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def createUser(request):\n    if(request.method=='POST'):\n        data=json.load(request)\n        if not userExist(email=data['email']):\n            user = User.objects.create_user(username=data[\"email\"], password=data['password'])\n            # if(data['usertype'])=='admin':\n            #     giveAdminPermission(user)\n        else:\n            return JsonResponse(USER_EXISTS)\n        return JsonResponse(USER_CREATED)",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def logout(request):\n    if(request.method=='POST'):\n        logoutUser(request)\n        return JsonResponse(LOGGED_OUT)\n    return JsonResponse(INVALID_METHOD)\n@permission_required('auth.delete_permission')\ndef delete(request):\n    if(request.method=='DELETE'):\n        data=json.load(request)\n        deleteUser(data)",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def delete(request):\n    if(request.method=='DELETE'):\n        data=json.load(request)\n        deleteUser(data)\n        return JsonResponse(USER_DELETED)\n    return JsonResponse(INVALID_METHOD)\ndef syncuser(request):\n    if(request.method=='POST'):\n        data=json.load(request)\n        u=request.user.id",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "syncuser",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def syncuser(request):\n    if(request.method=='POST'):\n        data=json.load(request)\n        u=request.user.id\n        if(request.user.is_authenticated):\n            user_id=User.objects.get(id=u)\n            if(appuser.objects.filter(userid=user_id).exists()):\n                appuser.objects.filter(userid=user_id).update(fbuserid=data['userid'],accesstoken=data['accesstoken'])\n            else:\n                user=appuser.objects.create(userid=user_id,fbuserid=data['userid'],accesstoken=data['accesstoken'])",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getaccess",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def getaccess(request):\n    if(request.method=='GET'):\n        u=request.user.id\n        if(request.user.is_authenticated):\n            user_id=User.objects.get(id=u)\n            if(appuser.objects.filter(userid=user_id).exists()):\n                query=list(appuser.objects.filter(userid=user_id).values())[0]\n                # print()\n                x = requests.get('https://graph.facebook.com/v13.0/'+query['fbuserid']+'/accounts?'+'access_token='+query['accesstoken'])\n                print(json.loads(x.text))",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "addpage",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def addpage(request):\n    if(request.method=='POST'):\n        data=json.load(request)\n        data=json.loads(data)\n        # print(data)\n        u=request.user.id\n        if(request.user.is_authenticated):\n            user_id=User.objects.get(id=u)\n            if(page.objects.filter(userid=user_id,pageid=data['id']).exists()):\n                page.objects.filter(userid=user_id,pageid=data['id']).update(pageaccesstoken=data['access_token'],pagename=data['name'])",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getConversations",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def getConversations(pagedata,pageid,pat):\n        # print(pagedata)\n        x=requests.get(\"https://graph.facebook.com/v19.0/\"+pageid+\"/conversations?platform=MESSENGER&access_token=\"+pat)\n        x=json.loads(x.text)\n        for data in x['data']:\n            que1=conversations.objects.filter(pageid=pagedata['id'],conversation_id=data['id'])\n            if(que1.exists()):\n                    if(is_in_24hr(data['updated_time'])):\n                        getMessages(list(que1.values())[0],pagedata)\n                    else:",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getMessages",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def getMessages(convdata,pagedata):\n    # print(convdata)\n    x=requests.get(\"https://graph.facebook.com/v19.0/\"+convdata['conversation_id']+\"?fields=messages&access_token=\"+pagedata['pageaccesstoken'])\n    x=json.loads(x.text)\n    # print(x)\n    for messagedata in x['messages']['data']:\n        # print(messagedata)\n        # print()\n        que1=message.objects.filter(message_id=messagedata['id'],conversation=convdata['id'])\n        if(is_in_24hr(messagedata['created_time'])):",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getMessageDetails",
+        "kind": 2,
+        "importPath": "richPanel.richapp.views",
+        "description": "richPanel.richapp.views",
+        "peekOfCode": "def getMessageDetails(messagedata,pagedata):\n    x=requests.get(\"https://graph.facebook.com/v19.0/\"+messagedata['message_id']+\"?fields=id,created_time,from,to,message&access_token=\"+pagedata['pageaccesstoken'])\n    messagedetails=json.loads(x.text)\n    # print(x)\n    que1=message_details.objects.filter(messageid=message.objects.get(message_id=messagedata['message_id']))\n    print(messagedetails)\n    if(is_in_24hr(messagedetails['created_time'])):\n        if(not que1.exists()):\n            if(not customer.objects.filter(user_id=messagedetails['from']['id']).exists()):\n                customer.objects.create(username=messagedetails['from']['name'],user_id=messagedetails['from']['id'])",
+        "detail": "richPanel.richapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "richPanel.manage",
+        "description": "richPanel.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'richPanel.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "richPanel.manage",
+        "documentation": {}
+    }
+]

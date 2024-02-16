@@ -1,0 +1,22 @@
+{
+	"name": "Richpanel Project",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "djangoback",
+	"workspaceFolder": "/richPanel",
+	"runServices": [
+		"djangoback",
+		"db_richpanel",
+		"pgadmin"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}

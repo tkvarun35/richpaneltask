@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  djangoback:
+      build:
+        context: ../.
+        dockerfile: .devcontainer/Dockerfile
+      volumes:
+          - ../richPanel:/richPanel
+      ports:
+        - 0.0.0.0:8000:8000
+      container_name: richpanel
+      command: /bin/sh -c "while sleep 1000; do :; done"
+      depends_on:
+        - db_richpanel
+      links:
+        - db_richpanel
+
+# PostgreSQL
+  db_richpanel:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: mypassword
+    container_name: db_richpanel
+    volumes:
+      - ~/apps/postgres/richpanel:/var/lib/postgresql/data
+
+# pgAdmin
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: varun@root.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    links:
+      - 'db_richpanel'
+    ports:
+      - "5051:80"
+    depends_on:
+      - db_richpanel
+    volumes:
+      - ./adminer/server.json:/pgadmin4/servers.json
+      - ./adminer/pgpass:/pgpass
+

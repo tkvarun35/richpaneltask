@@ -1,0 +1,12 @@
+LOGIN_RESPONSE={"msg":"Logged In"}
+INVALID_USER={"msg":"Invalid User"}
+USER_CREATED={"msg":"User Created"}
+INVALID_METHOD={"msg":"Invalid Method"}
+USER_EXISTS={"msg":"User Already Exists"}
+INVALID_RETURN_TYPE={"msg":"Invalid Return Type"}
+LOGGED_OUT={"msg":"Logged Out"}
+USER_DELETED={"msg":"User Deleted"}
+SUCCESS={"msg":"Success"}
+USER_NOT_EXIST={"msg":"User doesn't Exists"}
+NO_DATA={"msg":"NO DATA"}
+NO_SUCCESS={"msg":"Request was not processed!"}
