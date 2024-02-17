@@ -121,7 +121,7 @@ def getMessages(convdata,pagedata):
     # # print(convdata)
     x=requests.get("https://graph.facebook.com/v19.0/"+convdata['conversation_id']+"?fields=messages&access_token="+pagedata['pageaccesstoken'])
     x=json.loads(x.text)
-    # # print(x)
+    # print(x)
     for messagedata in x['messages']['data']:
         # # print(messagedata)
         # # print()
@@ -130,7 +130,7 @@ def getMessages(convdata,pagedata):
             if(not que1.exists()):
                 message.objects.create(conversation=conversations.objects.get(id=convdata['id']),message_id=messagedata['id'],created_time=messagedata['created_time'])
                     # message.objects.filter(message_id=messagedata['id'])
-            getMessageDetails(list(message.objects.filter(message_id=messagedata['id']).values())[0],pagedata)
+            getMessageDetails(list(message.objects.filter(message_id=messagedata['id']).values())[0],pagedata,x['id'])
         else:
             que1.update(status="INACTIVE")
         # print(list(message.objects.filter(message_id=messagedata['id']).values()))
@@ -138,12 +138,15 @@ def getMessages(convdata,pagedata):
         
 
         
-def getMessageDetails(messagedata,pagedata):
+def getMessageDetails(messagedata,pagedata,convID):
     x=requests.get("https://graph.facebook.com/v19.0/"+messagedata['message_id']+"?fields=id,created_time,from,to,message&access_token="+pagedata['pageaccesstoken'])
     messagedetails=json.loads(x.text)
     # # print(x)
     # print(messagedata['message_id'])
-    que1=message_details.objects.filter(messageid=message.objects.get(message_id=messagedata['message_id']))
+    # print(messagedata['message_id'])
+    print(messagedata)
+    que1=message_details.objects.filter(messageid__conversation__id=messagedata['conversation_id'])
+    # return
     # # print(messagedetails)
     if(is_in_24hr(messagedetails['created_time'])):
         if(not que1.exists()):
@@ -166,7 +169,7 @@ def getmessage(request):
     if(request.method=='POST'):
         if(request.user.is_authenticated):
             pageid=json.load(request)
-            conversation=conversations.objects.filter(pageid__pageid=pageid['pageid']).order_by('-updated_time').exclude(status='INACTIVE').values()
+            conversation=conversations.objects.filter(pageid__pageid=pageid['pageid'],pageid__userid__id=request.user.id).order_by('-updated_time').exclude(status='INACTIVE').values()
             data={}
             data['conversations']=list(conversation)
             # # print(data)
@@ -230,7 +233,7 @@ def reply(request):
             x=requests.post(url=url,json=reqdata)
             resp=json.loads(x.text)
             # # print(resp)
-            reply=replies.objects.create(conversation=conversations.objects.get(conversation_id=chat['convID']),message_content=chat['msg'])
+            reply=replies.objects.create(conversation=conversations.objects.get(conversation_id=chat['convID'],pageid__userid__id=request.user.id),message_content=chat['msg'])
             return JsonResponse(SUCCESS,status=200,safe=False)
         else:
             return JsonResponse(INVALID_METHOD,status=401)
