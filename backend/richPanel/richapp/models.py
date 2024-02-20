@@ -39,6 +39,8 @@ class message(models.Model):
     
     class Meta:
         db_table = "message"
+        unique_together = ["conversation", "message_id"]
+
 
 class customer(models.Model):
     username=models.CharField(max_length=100)

@@ -13,7 +13,13 @@ function Linkpage() {
   const onSubmit = async (data) => {
     setIsLoading(true);
     const page = JSON.parse(data.page);
-    const savePage = await postRequest("addpage/", data.page);
+    const savePage = await postRequest(
+      "addpage/",
+      JSON.stringify({
+        ...page,
+        request_for: "getData",
+      })
+    );
     console.log(savePage);
     if (savePage.status === 200) {
       localStorage.setItem(

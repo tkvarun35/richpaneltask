@@ -85,14 +85,24 @@ def addpage(request):
         # # print(data)
         u=request.user.id
         if(request.user.is_authenticated):
-            user_id=User.objects.get(id=u)
-            if(page.objects.filter(userid=user_id,pageid=data['id']).exists()):
-                page.objects.filter(userid=user_id,pageid=data['id']).update(pageaccesstoken=data['access_token'],pagename=data['name'])
-            else:
-                pageDetails=page.objects.create(userid=user_id,pageid=data['id'],pageaccesstoken=data['access_token'],pagename=data['name'])
-            query=list(page.objects.filter(userid=user_id,pageid=data['id']).values())[0]
-            # # print(query)
-            getConversations(query,pageid=data['id'],pat=data['access_token'])
+            if(data['request_for']=='getData'):
+                user_id=User.objects.get(id=u)
+                if(page.objects.filter(userid=user_id,pageid=data['id']).exists()):
+                    page.objects.filter(userid=user_id,pageid=data['id']).update(pageaccesstoken=data['access_token'],pagename=data['name'])
+                else:
+                    pageDetails=page.objects.create(userid=user_id,pageid=data['id'],pageaccesstoken=data['access_token'],pagename=data['name'])
+                query=list(page.objects.filter(userid=user_id,pageid=data['id']).values())[0]
+                # # print(query)
+                getConversations(query,pageid=data['id'],pat=data['access_token'])
+            elif(data['request_for']=='refreshData'):
+                user_id=User.objects.get(id=u)
+                if(page.objects.filter(userid=user_id,pageid=data['id']).exists()):
+                    page.objects.filter(userid=user_id,pageid=data['id']).update(pageaccesstoken=data['accesstoken'],pagename=data['name'])
+                else:
+                    pageDetails=page.objects.create(userid=user_id,pageid=data['id'],pageaccesstoken=data['accesstoken'],pagename=data['name'])
+                query=list(page.objects.filter(userid=user_id,pageid=data['id']).values())[0]
+                # # print(query)
+                getConversations(query,pageid=data['id'],pat=data['accesstoken'])
             return JsonResponse(SUCCESS,status=200)
     else:
         return JsonResponse(INVALID_METHOD,status=401)
@@ -109,7 +119,10 @@ def getConversations(pagedata,pageid,pat):
                         que1.update(updated_time=data['updated_time'])
                         getMessages(list(que1.values())[0],pagedata)
                     else:
+                        print("inactivated")
                         que1.update(status="INACTIVE")
+                        continue
+
             elif(is_in_24hr(data['updated_time'])):
                 conversations.objects.create(pageid=page.objects.get(id=pagedata['id']),conversation_id=data['id'],updated_time=data['updated_time'])
                 getMessages(list(conversations.objects.filter(pageid=pagedata['id'],conversation_id=data['id']).values())[0],pagedata)
@@ -128,7 +141,10 @@ def getMessages(convdata,pagedata):
         que1=message.objects.filter(message_id=messagedata['id'],conversation=convdata['id'])
         if(is_in_24hr(messagedata['created_time'])):
             if(not que1.exists()):
-                message.objects.create(conversation=conversations.objects.get(id=convdata['id']),message_id=messagedata['id'],created_time=messagedata['created_time'])
+                print("kk")
+                print(messagedata['id'])
+                print(convdata['id'])
+                message.objects.update_or_create(conversation=conversations.objects.get(id=convdata['id']),message_id=messagedata['id'],created_time=messagedata['created_time'])
                     # message.objects.filter(message_id=messagedata['id'])
             getMessageDetails(list(message.objects.filter(message_id=messagedata['id']).values())[0],pagedata,x['id'])
         else:
@@ -145,7 +161,7 @@ def getMessageDetails(messagedata,pagedata,convID):
     # print(messagedata['message_id'])
     # print(messagedata['message_id'])
     print(messagedata)
-    que1=message_details.objects.filter(messageid__conversation__id=messagedata['conversation_id'])
+    que1=message_details.objects.filter(messageid__message_id=messagedata['message_id'],userid=messagedetails['from']['id'])
     # return
     # # print(messagedetails)
     if(is_in_24hr(messagedetails['created_time'])):

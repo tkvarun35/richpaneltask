@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'root',
         'PASSWORD': 'mypassword',
-        'HOST': 'db_richpanel',
+        'HOST': 'db_richpanel_dev',
         'PORT': '5432'
     }
 }

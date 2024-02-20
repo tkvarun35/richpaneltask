@@ -9,7 +9,7 @@ services:
           - ../richPanel:/richPanel
       ports:
         - 0.0.0.0:8000:8000
-      container_name: richpanel
+      container_name: richpanel_dev
       command: /bin/sh -c "while sleep 1000; do :; done"
       depends_on:
         - db_richpanel
@@ -24,7 +24,7 @@ services:
       POSTGRES_DB: mydb
       POSTGRES_USER: root
       POSTGRES_PASSWORD: mypassword
-    container_name: db_richpanel
+    container_name: db_richpanel_dev
     volumes:
       - ~/apps/postgres/richpanel:/var/lib/postgresql/data
 
@@ -41,6 +41,7 @@ services:
       - "5051:80"
     depends_on:
       - db_richpanel
+    container_name: pgAdmin_dev
     volumes:
       - ./adminer/server.json:/pgadmin4/servers.json
       - ./adminer/pgpass:/pgpass
