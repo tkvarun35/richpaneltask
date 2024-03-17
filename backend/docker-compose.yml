@@ -10,7 +10,7 @@ services:
       ports:
         - 0.0.0.0:8000:8000
       container_name: richpanel
-      command: ash -c "python manage.py migrate && python manage.py runsslserver 0.0.0.0:8000"
+      command: ash -c "python manage.py migrate && python manage.py makemigrations richapp && python manage.py migrate richapp && python manage.py runsslserver 0.0.0.0:8000"
       depends_on:
         - db_richpanel
       links:
