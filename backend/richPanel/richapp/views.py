@@ -193,7 +193,7 @@ def getmessage(request):
                 # # print(i['conversation_id'])
                 i['message']=list(message_details.objects.filter(messageid__conversation__conversation_id=i['conversation_id'],status="ACTIVE").order_by('-created_time').values())[0]
                 i['message']['user']=list(customer.objects.filter(user_id=i['message']['userid_id']).values())[0]
-                pat=list(page.objects.filter(pageid=pageid['pageid']).values('pageaccesstoken'))[0]['pageaccesstoken']
+                pat=list(page.objects.filter(pageid=pageid['pageid'],userid=request.user.id).values('pageaccesstoken'))[0]['pageaccesstoken']
                 i['message']['user']['pat']=pat
             return JsonResponse(data,status=200,safe=False)
             # return JsonResponse(NO_DATA,status=204)
